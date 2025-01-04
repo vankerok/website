@@ -1,0 +1,70 @@
+body {
+  font-family: "Open Sans", serif;
+  font-size: 18px;
+}
+
+main {
+  margin-left: 25px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.navigation-link {
+  color: black;
+  font-style: normal;
+  text-decoration: none;
+}
+
+header {
+  height: 40px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: rgb(210, 210, 210);
+}
+
+.header-ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.header-li {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+}
+
+.information {
+  padding-left: 30px;
+}
+
+.roadmap-link {
+  color: rgb(0, 190, 254);
+}
+
+.roadmap-hook {
+  margin-top: 10px;
+}
+
+.roadmap {
+  display: flex;
+}
+
+.roadmap-image {
+  flex: 1;
+  margin: 0;
+  width: 1200px;
+}
